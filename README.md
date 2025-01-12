@@ -13,8 +13,11 @@ ReChorus框架分为Input、Reader、Model和Runner层。其中，本次作业�
 ### 运行
 下载该项目，根据[Rechorus](https://github.com/THUwangcy/ReChorus)中要求配置环境。
 + 在cmd中运行：
+  
   `python main.py --model_name MyModel --reg 1e-4 --ssl 0.3 --temp 0.3 --path ../data/MovieLens_1M --dataset ML_1MTOPK --lr 0.0002 --emb_size 64 --hyper_num 256 --keepRate 1`
+  
   可复现目前代码在数据集`MovieLens_1M`上的最佳表现。
   
   `python main.py --model_name MyModel --reg 1e-4 --ssl 0.2 --temp 0.3 --dataset Grocery_and_Gourmet_Food --lr 0.0002 --emb_size 64 --hyper_num 64 --keepRate 1`
+  
   可复现目前代码在数据集`Grocery_and_Gourmet_Food`上的最佳表现。
